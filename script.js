@@ -47,7 +47,7 @@ class Products{
 
 } 
 const products = new Products();
-products.fetchProducts().then((data)=>{
+products.fetchProducts().then((data)=>{ ///fetchProducts is an async function it returns promise so .then is used to access its resolved value
     console.log(data);
     //console.log(typeof(data));
     
